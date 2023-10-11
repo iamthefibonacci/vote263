@@ -11,7 +11,7 @@ app = Flask(__name__, template_folder='template')
 
 @app.route('/')
 def index():
-    return redirect('http://www.mdcallianceparty.org')
+    return redirect('https://ukandicitizenscoalitionforchange.org')
 
 @app.route('/bot', methods = ['POST', 'GET'])
 def bot():
